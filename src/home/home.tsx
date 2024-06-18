@@ -7,6 +7,8 @@ import Internationalfreeandeasytour from '../components/Internationalfreeandeasy
 import Domesticgrouptour from '../components/Domesticgrouptour/Domesticgrouptour'
 import Internationaltopdestination from '../components/Topdestination/Topdestination'
 import Footer from '../components/Footer/footer'
+import Termsandcondition from '../components/terms&condition/terms&condiition'
+import Privacypolicy from '../components/privacypolicy/privacypolicy'
 
 const Home = () => {
   return (
@@ -20,6 +22,8 @@ const Home = () => {
       <Domesticgrouptour />
       <Internationaltopdestination />
        <Footer />
+       <Termsandcondition />
+       <Privacypolicy />
     </div>
   )
 }

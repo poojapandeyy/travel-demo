@@ -61,9 +61,9 @@ const Domesticitinerary = () => {
         </div>
         <div className="bg-slate-100 mt-4 rounded w-full lg:w-2/3">
             <div className="text-gray-700 font-medium text-lg pl-3 pt-2">Important Notice</div>
-            <p className="p-2 pt-2 text-xs text-red-500 text-justify">The Civil Aviation Authority of Nepal (CAAN) has implemented new rules for helicopter landing at Kalapatthar. In a shared helicopter, there are either 5 passengers or 2 passengers, and the cost is split, and in the case of 5 passengers, the helicopter doesn't land. The cost must be split among two passengers for landing at Kalapatthar.</p><br/>
-            <p className="p-2 pt-2 text-xs text-red-500 text-justify">In a private helicopter, if there are 2 passengers, the helicopter lands, and in the case of 5, it doesn't land. There must be either a single passenger or two passengers for the landing at Kalapatthar.</p><br/>
-            <p className="p-2 pt-2 text-xs text-red-500 text-justify">In both sharing and private helicopters the helicopter lands at the Everest View Hotel for breakfast.</p>
+            <p className="p-2 pt-2 text-md md:text-sm lg:text-xs text-red-500 text-justify">The Civil Aviation Authority of Nepal (CAAN) has implemented new rules for helicopter landing at Kalapatthar. In a shared helicopter, there are either 5 passengers or 2 passengers, and the cost is split, and in the case of 5 passengers, the helicopter doesn't land. The cost must be split among two passengers for landing at Kalapatthar.</p><br/>
+            <p className="p-2 pt-2 text-md md:text-sm lg:text-xs text-red-500 text-justify">In a private helicopter, if there are 2 passengers, the helicopter lands, and in the case of 5, it doesn't land. There must be either a single passenger or two passengers for the landing at Kalapatthar.</p><br/>
+            <p className="p-2 pt-2 text-md md:text-sm lg:text-xs text-red-500 text-justify">In both sharing and private helicopters the helicopter lands at the Everest View Hotel for breakfast.</p>
         </div>
 
         <div className='font-bold text-xl pt-5 text-blue-600'>SEE ALL DAYS ITIENERARY</div>
@@ -75,9 +75,9 @@ const Domesticitinerary = () => {
                onClick={() => toggleExpand(index)}
              >
               
-               <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
-               <div className="text-lg font-medium gap-2 text-blue-700">{faq.day}</div>
-               <div className="text-lg font-medium gap-2">{faq.name}</div>
+               <div className='flex items-center gap-0 md:gap-2 lg:gap-3'>
+               <div className="text-sm md:text-md lg:text-lg font-medium  text-blue-700">{faq.day}</div>
+               <div className="text-sm md:text-md lg:text-lg font-medium ">{faq.name}</div>
                </div>
                <div>{expandedIndex === index ? '-' : '+'}</div>
              </div>

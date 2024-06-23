@@ -3,6 +3,7 @@ const PATH = {
     virtualcall: "/virtualcall",
     chat: "/chat",
     menu: "/menu",
+    detail: "/detail"
   };
   export default PATH;
   

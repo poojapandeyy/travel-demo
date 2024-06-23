@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { IoMdMenu } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
@@ -53,7 +53,7 @@ const Navbar = () => {
             <ul className="flex flex-col gap-4">
               <li>
                 <NavLink
-                  to={PATH.virtualCall}
+                  to={PATH.virtualcall}
                   className="text-white hover:text-gray-300"
                 >
                   Virtual Call
@@ -61,7 +61,7 @@ const Navbar = () => {
               </li>
               <li>
                 <NavLink
-                  to={PATH.chats}
+                  to={PATH.chat}
                   className="text-white hover:text-gray-300"
                 >
                   Chats

@@ -1,0 +1,30 @@
+
+
+const Domesticintro = () => {
+  return (
+    <div id="overview" className="px-4 md:px-20 lg:px-36 mt-10 w-full md:w-4/5 lg:w-3/4">
+        <div className="text-2xl font-bold">Introduction: Everest Base Camp Helicopter Tour With Landing At Kala Patthar</div>
+        <div className="mt-4">
+        <p className="text-justify text-md font-serif ">Welcome to the breathtaking world of the Himalayas, where trekking planner Nepal brings a unique chance of flying over the Khumbu Region, the Himalayas, and Everest Base Camp with a helicopter tour that lands at Kalapatthar for close-up looks at the mountains, and at Everest View Hotel, which offers some extra time for the mountains and views, where we can even have breakfast and relax into the soaring beauty of the Himalayas! This extraordinary adventure offers you an unforgettable experience of exploring the majestic Himalayas and getting up close to the legendary Mount Everest, Ama dablam, Nuptse, Lhotse, Thamsherkhu, Kantega, Kongde Ri, Peak38, Hilary Peak, and many more.</p><br/>
+        <p className="text-justify text-md font-serif ">Located at the heart of the Khumbu Region of Nepal, Everest Base Camp is the starting point for mountaineers embarking on their journey to conquer the world's tallest peak. This Everest Base Camp Helicopter Tour provides a unique opportunity to witness the awe-inspiring beauty of the Everest region, including its tall, majestic mountains, rugged terrain, and picturesque valleys.</p><br/>
+        <p className="text-justify text-md font-serif ">The adventure begins as you board a state-of-the-art helicopter, specially designed for high-altitude flights. As the rotor blades spin, you'll soar above lush green forests, traditional Sherpa villages, and ancient monasteries, immersing yourself in the rich cultural heritage of the region.</p><br/>
+        <p className="text-justify text-md font-serif ">As you approach Everest Base Camp, you'll be awestruck by the breathtaking views of the surrounding Himalayan giants, such as Lhotse, Nuptse, and Ama Dablam. The helicopter will make a thrilling landing at a strategic viewpoint, allowing you to step out and soak in the unparalleled panorama of the Himalayas.</p><br/>
+        <p className="text-justify text-md font-serif ">This is a once-in-a-lifetime opportunity to stand in the footsteps of legendary climbers and feel the exhilaration of being so close to the roof of the world. Take in the crisp mountain air, listen to the sounds of the wind whistling through the peaks, and capture stunning photographs that will leave you with everlasting memories.</p><br/>
+        <p className="text-justify text-md font-serif ">You will be escorted by skilled pilots and informed tour leaders who will give fascinating insights on the topography, history, and mountaineering accomplishments of the area. They'll make sure you're secure and provide you with useful information on the amazing sights you pass along the way.</p>
+        </div> 
+        <div className="text-2xl font-bold mt-5">Highlights</div>   
+        <div className="mt-4">
+        <p className="text-justify text-md font-serif">Visitors can experience a close-up view of the Himalayan range, which includes Everest, Ama Dablam, Pumori, Nuptse, Lhotse, Peak 38, Makalu, Cho yu, Thameserku, Karyolung, lingtren, Awi Peak, and Kusung kanguru during this exciting and beautiful Everest Base Camp Helicopter Tour Package. Here are some of the tour's major highlights:</p>
+        <ul className="list-disc ml-5"></ul>
+        <li className="text-justify text-md font-serif"><strong className="text-blue-900">Aerial View of the Himalayas: </strong>Let's get introduced to incredible panoramas of towering peaks covered in snow, deep valleys, and rugged landscapes as you fly over the gorgeous Himalayan range. </li>
+        <li className="text-justify text-md font-serif"><strong className="text-blue-900">Landing at Lukla:</strong> The Khumbu region's small town has been considered the entrance to Everest. To refuel, the helicopter will stop here, allowing you to have a closer look at the airports, landings, and takeoffs that are happening beside the tall, majestic peaks and experience the exhilarating takeoffs and landings on Lukla's renowned short and steep runway.</li>
+        <li className="text-justify text-md font-serif"><strong className="text-blue-900">Flying Through Sherpa Villages over the Dudh Koshi River:</strong>  The helicopter will continue gaining altitude, passing through scenic villages like Phakding Namche, Tengboche, Dingboche, Thukla, Pangboche, and Syangboche on the way from Lukla to Everest Base Camp. Stunning vistas of well-known summits like Ama Dablam, Lhotse, and Nuptse will be available. Chance to set foot in the Everest Region at Kalapatthar as the helicopter lands there or close by at Everest Base Camp.</li>
+        <li className="text-justify text-md font-serif"><strong className="text-blue-900">Close-up Views of Mount Everest:</strong> The highlight of the tour is, of course, the chance to see Mount Everest (Lhotse nuptse choy u Makalu) and the 8000 peaks up close. You'll have the opportunity to see and witness the world's highest peak, an 8000-meter peak. The helicopter will hover near Everest, During the helicopter flight, a spectacular view of the Khumbu Icefall is visible, and we even see the camps getting set up for the summit and expeditions. The icefall is a maze of towering ice slabs and crevasses, and witnessing it from the air is truly a sight to behold.</li>
+        <li className="text-justify text-md font-serif"><strong className="text-blue-900">Breakfast at Everest View Hotel:</strong> Trekking Planner Nepal offers the option of a luxurious breakfast at one of the most luxurious high-altitude hotels, the Hotel Everest View in Syangboche. This allows the travelers to have some quality time in the mountains, enjoying the delicious meal while enjoying panoramic views of the Everest region.</li>
+
+        </div>  
+    </div>
+  )
+}
+
+export default Domesticintro

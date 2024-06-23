@@ -8,11 +8,13 @@ import Image3 from '../../assets/image/IFET-image3.jpg'
 import Image4 from '../../assets/image/IFET-image4.jpg'
 import Image5 from '../../assets/image/IFET-image5.jpg'
 import Image6 from '../../assets/image/IFET-image6.jpg'
+import { Link } from 'react-router-dom';
+import PATH from '../../constant/path';
 
 
 const Domesticgrouptour = () => {
     const images = [
-    { src: Image1, alt: 'BANGKOK', time: '4D3N', cities: 'BANGKOK', tours: 'More Korea Tour'},
+    {id:1, src: Image1, alt: 'BANGKOK', time: '4D3N', cities: 'BANGKOK', tours: 'More Korea Tour'},
     { src: Image2, alt: 'KUALA LUMPUR', time: '4D3N', cities: 'KUALA LUMPUR', tours: 'More Korea Tour'},
     { src: Image3, alt: 'TAIPEI', time: '3D2N', cities: 'TAIPEI', tours: 'More Korea Tour'},
     { src: Image4, alt: 'SINGAPORE', time: '4D3N', cities: 'SINGAPORE', tours: 'More Korea Tour'},
@@ -65,11 +67,17 @@ const Domesticgrouptour = () => {
               key={index}
               className="min-w-[250px] max-w-[400px] flex-shrink-0 bg-white shadow-lg rounded-md overflow-hidden p-2 slide"
             >
+               <Link
+                
+                to={`${PATH.detail}/${image.id}`}
+                className="text-black hover:text-blue-500 hover:underline"
+              >
               <img
                 src={image.src}
                 alt={image.alt}
                 className="w-full h-auto object-cover"
               />
+              </Link>
               <div className="p-4 flex gap-8">
                 <div className="flex gap-1 items-center">
                   <SlCalender size={14} color="blue" />
